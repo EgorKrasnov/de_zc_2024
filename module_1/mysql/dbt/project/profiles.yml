@@ -1,0 +1,12 @@
+mysql:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      server: localhost
+      port: 9000  # optional
+      database: dbt_test # optional, should be same as schema
+      schema: dbt_test
+      username: test
+      password: "123"
+      # driver: MySQL ODBC 8.0 ANSI Driver
